@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 220px;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#clicker-section{
+    /* display: flex;
+    justify-content: center; */
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: fixed;
+    margin-top: 100px;
+}
+#buy-section{
+    height: 100%;
+    width: 200px;
+    z-index: 1;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+}
+.clicker-upgrade{
+    margin: 5px;
+    background-color: aqua;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#money{
+    width: fit-content;
+    display: inline;
+}
+#dollarsign{
+    width: fit-content;
+    display: inline;
+}
+#money-section{
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    margin: 20px;
+    margin-right: 100px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
