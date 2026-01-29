@@ -25,7 +25,7 @@ main{
 }
 #buy-section{
     height: 100%;
-    width: 200px;
+    width: 300px;
     z-index: 1;
     background-color: aquamarine;
     overflow-x: hidden;
