@@ -34,15 +34,26 @@ main{
     padding: 10px;
     position: fixed;
 }
+.upgrade-row{
+    display: flex;
+    gap: 3px;
+    flex: 1;
+}
 .clicker-upgrade{
     margin: 5px;
     background-color: aqua;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 22px;
-    display: block;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 20px;   
+}
+#buyall1{
+    font-size: 28px;
+    font-weight: bold;
 }
 #money{
     width: fit-content;

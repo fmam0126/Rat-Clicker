@@ -1,38 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rat Clicker</title>
     <script src="./js/app.js" defer></script>
     <script type="module" src=""></script>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <header></header>
+    <section id="buy-section">
+    <div class="upgrade-row">
+      <div class="clicker-upgrade" onclick="buyclickpower1()">
+        <p class="unselectable">
+          Buy 1 Click Power<br />
+          10$
+        </p>
+      </div>
+        <div class="clicker-upgrade" id="buyall1" onclick="buyallclickpower1()">
+        <p class="unselectable" >
+          Buy All
+        </p>
+      </div>
+    </div>
+      <div class="clicker-upgrade" onclick="buyclickpower10()">
+        <p class="unselectable">
+          Buy 10 Click Power<br />
+          100$
+        </p>
+      </div>
+      <div class="clicker-upgrade" onclick="buyautoclicker1()">
+        <p class="unselectable">
+          Buy 1 Auto Clicker<br />
+          200$
+        </p>
+      </div>
 
-    </header>
-        <section id="buy-section">
-            <div class="clicker-upgrade" onclick="buyclickpower1()">
-                <p class="unselectable">Buy 1 Click Power<br> 10$</p>
-            </div>
-            <div class="clicker-upgrade" onclick="buyclickpower10()">
-                <p class="unselectable">Buy 10 Click Power<br> 100$</p>
-            </div>
-            <div class="clicker-upgrade" onclick="buyautoclicker1()">
-                <p class="unselectable">Buy 1 Auto Clicker<br> 200$</p>
-            </div>
-        </section>
+    </section>
     <main>
-        <section id="money-section">
-            <h1 id="money">0</h1><h1 id="dollarsign">$</h1>
-        </section>
-        <section id="clicker-section">
-            <div>
-                <img src="./img/raticate.png" alt="raticate" onclick="ratclick()" draggable="false">
-            </div>
-        </section>
-
+      <section id="money-section">
+        <h1 id="money">0</h1>
+        <h1 id="dollarsign">$</h1>
+      </section>
+      <section id="clicker-section">
+        <div>
+          <img
+            src="./img/raticate.png"
+            alt="raticate"
+            onclick="ratclick()"
+            draggable="false"
+          />
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
